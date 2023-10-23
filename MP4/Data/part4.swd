@@ -1,0 +1,41 @@
+Circuit: C:\Users\241pr\OneDrive - UBC\Desktop\Apps\UBC\ELEC 301\MP4\part4.CKT
+Date: Fri Apr 14 14:26:33  2023
+
+
+*AC sweep rc1[resistance] run 1 of 9 (1p)
+rc1  10.0k      ->  9.90k
+rc   10.0k      ->  9.90k
+
+*AC sweep rc1[resistance] run 2 of 9 (2p)
+rc1  10.0k      ->  9.90k
+rc   10.0k      ->  10.0k
+
+*AC sweep rc1[resistance] run 3 of 9 (3p)
+rc1  10.0k      ->  9.90k
+rc   10.0k      ->  10.1k
+
+*AC sweep rc1[resistance] run 4 of 9 (4p)
+rc1  10.0k      ->  10.0k
+rc   10.0k      ->  9.90k
+
+*AC sweep rc1[resistance] run 5 of 9 (5p)
+rc1  10.0k      ->  10.0k
+rc   10.0k      ->  10.0k
+
+*AC sweep rc1[resistance] run 6 of 9 (6p)
+rc1  10.0k      ->  10.0k
+rc   10.0k      ->  10.1k
+
+*AC sweep rc1[resistance] run 7 of 9 (7p)
+rc1  10.0k      ->  10.1k
+rc   10.0k      ->  9.90k
+
+*AC sweep rc1[resistance] run 8 of 9 (8p)
+rc1  10.0k      ->  10.1k
+rc   10.0k      ->  10.0k
+
+*AC sweep rc1[resistance] run 9 of 9 (9p)
+rc1  10.0k      ->  10.1k
+rc   10.0k      ->  10.1k
+
+
