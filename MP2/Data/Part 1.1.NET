@@ -1,0 +1,20 @@
+*Spice netlist for Circuit: C:\Users\241pr\OneDrive\Desktop\UBC\ELEC 301\MP2\Part 1.1.CKT
+Vce 3 0 10V
+Vbe 4 0 0.7
+Q1 3 4 0 Q2N2222A
+.SAVE V(3) V(4) @vce[p] vce#branch @vbe[p] vbe#branch @q1[p] @q1[ic] @q1[ib]
+.SAVE @q1[ie]
+*BKGND=RGB 0 0 0
+*BINARY RAW FILE
+
+* Selected Circuit Analyses :
+.DC Vbe 0 650m 20m
+.TRAN 20n 5u 0 20n
+
+* Models/Subcircuits Used:
+
+*2N2222A Si 500mW 40V 800mA 300MHz GenPurp pkg:TO-18 3,2,1
+.MODEL Q2N2222A NPN(IS=8.11E-14 BF=205 VAF=113 IKF=0.5 ISE=1.06E-11
++ NE=2 BR=4 VAR=24 IKR=0.225 RB=1.37 RE=0.343 RC=0.137 CJE=2.95E-11
++ TF=3.97E-10 CJC=1.52E-11 TR=8.5E-8 XTB=1.5 )
+.END
